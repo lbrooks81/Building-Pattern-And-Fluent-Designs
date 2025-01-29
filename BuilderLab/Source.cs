@@ -15,8 +15,16 @@ public class Source
     /// </summary>
     public Vehicle Car1()
     {
-        //TODO: Your code here
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetEngine(EngineType.V4)
+            .SetTransmission(TransmissionType.Manual)
+            .SetWheels(4)
+            .SetDoors(4)
+            .SetSeats(5)
+            .SetSeatMaterial(SeatMaterial.Leather)
+            .SetColor(Color.White)
+            .SetFuelType(FuelType.Gasoline)
+            .Build();
     }
 
     /// <summary>
@@ -24,7 +32,18 @@ public class Source
     /// </summary>
     public Vehicle Car2()
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetEngine(EngineType.V8)
+            .SetTransmission(TransmissionType.Automatic)
+            .SetWheels(4)
+            .SetDoors(6)
+            .SetSeats(7)
+            .SetSeatMaterial(SeatMaterial.Vinyl)
+            .SetColor(Color.Blue)
+            .SetFuelType(FuelType.Gasoline)
+            .SetRadio(true)
+            .SetBluetooth(true)
+            .Build();
     }
 
     /// <summary>
@@ -32,7 +51,16 @@ public class Source
     /// </summary>
     public Vehicle Car3(TransmissionType transmissionType)
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetTransmission(transmissionType)
+            .SetWheels(4)
+            .SetDoors(2)
+            .SetSeats(2)
+            .SetSeatMaterial(SeatMaterial.Nylon)
+            .SetColor(Color.White)
+            .SetFuelType(FuelType.Electric)
+            .SetRadio(true)
+            .Build();
     }
 
     /// <summary>
@@ -40,7 +68,16 @@ public class Source
     /// </summary>
     public Vehicle Car4(int numOfDoors, int numOfWheels, int numOfSeats)
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetTransmission(TransmissionType.Automatic)
+            .SetWheels(numOfWheels)
+            .SetDoors(numOfDoors)
+            .SetSeats(numOfSeats)
+            .SetSeatMaterial(SeatMaterial.Nylon)
+            .SetColor(Color.White)
+            .SetFuelType(FuelType.Electric)
+            .SetRadio(true)
+            .Build();
     }
 
     /// <summary>
@@ -48,7 +85,16 @@ public class Source
     /// </summary>
     public Vehicle Motorcycle()
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetEngine(EngineType.V2)
+            .SetTransmission(TransmissionType.Manual)
+            .SetWheels(2)
+            .SetSeats(1)
+            .SetSeatMaterial(SeatMaterial.Leather)
+            .SetColor(Color.Black)
+            .SetFuelType(FuelType.Gasoline)
+            .SetRadio(true)
+            .Build();
     }
 
     /// <summary>
@@ -56,7 +102,15 @@ public class Source
     /// </summary>
     public Vehicle Scooter()
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetWheels(2)
+            .SetSeatMaterial(SeatMaterial.Vinyl)
+            .SetSeats(1)
+            .SetColor(Color.Yellow)
+            .SetFuelType(FuelType.Electric)
+            .SetRadio(true)
+            .SetBluetooth(true)
+            .Build();
     }
 
     /// <summary>
@@ -64,7 +118,19 @@ public class Source
     /// </summary>
     public Vehicle Truck1()
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetEngine(EngineType.V16)
+            .SetTransmission(TransmissionType.Manual)
+            .SetWheels(16)
+            .SetDoors(2)
+            .SetSeats(2)
+            .SetSeatMaterial(SeatMaterial.Nylon)
+            .SetColor(Color.Red)
+            .SetFuelType(FuelType.Diesel)
+            .SetRadio(true)
+            .SetTrailer(true)
+            .SetBluetooth(true)
+            .Build();
     }
 
     /// <summary>
@@ -72,7 +138,19 @@ public class Source
     /// </summary>
     public Vehicle Truck2(EngineType engineType)
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetEngine(engineType)
+            .SetTransmission(TransmissionType.Manual)
+            .SetWheels(18)
+            .SetDoors(4)
+            .SetSeats(3)
+            .SetSeatMaterial(SeatMaterial.Polyester)
+            .SetColor(Color.Green)
+            .SetFuelType(FuelType.Diesel)
+            .SetRadio(true)
+            .SetTrailer(true)
+            .SetMudFlaps(true)
+            .Build();
     }
 
     /// <summary>
@@ -80,7 +158,17 @@ public class Source
     /// </summary>
     public Vehicle Truck3()
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetTransmission(TransmissionType.Automatic)
+            .SetWheels(12)
+            .SetDoors(2)
+            .SetSeats(3)
+            .SetSeatMaterial(SeatMaterial.Leather)
+            .SetColor(Color.White)
+            .SetFuelType(FuelType.Electric)
+            .SetRadio(true)
+            .SetBluetooth(true)
+            .Build();
     }
 
     /// <summary>
@@ -88,6 +176,11 @@ public class Source
     /// </summary>
     public Vehicle GolfCart(int numOfWheels, int numOfSeats, Color bodyColor, FuelType fuelType)
     {
-        throw new NotImplementedException();
+        VehicleBuilder vehicleBuilder = new VehicleBuilder();
+        return vehicleBuilder.SetWheels(numOfWheels)
+            .SetSeats(numOfSeats)
+            .SetColor(bodyColor)
+            .SetFuelType(fuelType)
+            .Build();
     }
 }
