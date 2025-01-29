@@ -1,0 +1,97 @@
+[
+  {
+    "Engine": 1,
+    "Transmission": 0,
+    "NumberOfDoors": 4,
+    "NumberOfWheels": 4,
+    "VehicleFuelType": 0,
+    "SeatMat": 0,
+    "NumberOfSeats": 5,
+    "BodyColor": 0
+  },
+  {
+    "Engine": 2,
+    "Transmission": 1,
+    "NumberOfDoors": 6,
+    "NumberOfWheels": 4,
+    "VehicleFuelType": 0,
+    "SeatMat": 1,
+    "NumberOfSeats": 7,
+    "BodyColor": 4,
+    "HasRadio": true,
+    "HasBluetooth": true
+  },
+  {
+    "NumberOfDoors": 2,
+    "NumberOfWheels": 4,
+    "VehicleFuelType": 2,
+    "SeatMat": 3,
+    "NumberOfSeats": 2,
+    "BodyColor": 0,
+    "HasRadio": true
+  },
+  {
+    "Transmission": 1,
+    "VehicleFuelType": 2,
+    "SeatMat": 3,
+    "BodyColor": 0,
+    "HasRadio": true
+  },
+  {
+    "Engine": 0,
+    "Transmission": 0,
+    "NumberOfWheels": 2,
+    "VehicleFuelType": 0,
+    "SeatMat": 0,
+    "NumberOfSeats": 1,
+    "BodyColor": 1,
+    "HasRadio": true
+  },
+  {
+    "NumberOfWheels": 2,
+    "VehicleFuelType": 2,
+    "SeatMat": 1,
+    "NumberOfSeats": 1,
+    "BodyColor": 2,
+    "HasRadio": true,
+    "HasBluetooth": true
+  },
+  {
+    "Engine": 4,
+    "Transmission": 0,
+    "NumberOfDoors": 2,
+    "NumberOfWheels": 16,
+    "VehicleFuelType": 1,
+    "SeatMat": 3,
+    "NumberOfSeats": 2,
+    "BodyColor": 5,
+    "HasRadio": true,
+    "HasBluetooth": true,
+    "HasTrailer": true
+  },
+  {
+    "Engine": 5,
+    "Transmission": 0,
+    "NumberOfDoors": 4,
+    "NumberOfWheels": 18,
+    "VehicleFuelType": 1,
+    "SeatMat": 2,
+    "NumberOfSeats": 3,
+    "BodyColor": 3,
+    "HasRadio": true,
+    "HasMudFlaps": true,
+    "HasTrailer": true
+  },
+  {
+    "Transmission": 1,
+    "NumberOfDoors": 2,
+    "NumberOfWheels": 12,
+    "VehicleFuelType": 2,
+    "SeatMat": 0,
+    "NumberOfSeats": 3,
+    "BodyColor": 0,
+    "HasRadio": true,
+    "HasBluetooth": true
+  },
+  {}
+]
